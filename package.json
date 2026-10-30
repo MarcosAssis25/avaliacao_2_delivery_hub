@@ -1,0 +1,9 @@
+{
+  "name": "avaliacao_2-workspace",
+  "version": "1.0.0",
+  "description": "Workspace com Flutter e Mock REST API Server para Avaliação 2",
+  "scripts": {
+    "start": "npm --prefix server start",
+    "setup": "npm --prefix server install"
+  }
+}

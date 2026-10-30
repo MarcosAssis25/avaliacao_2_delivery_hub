@@ -1,0 +1,60 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Carlos Eduardo",
+      "telefone": "(11) 98765-4321",
+      "endereco": "Rua das Acácias, 150"
+    },
+    {
+      "id": 2,
+      "nome": "Mariana Souza",
+      "telefone": "(21) 99876-5432",
+      "endereco": "Av. Brasil, 1200 - Bloco B"
+    },
+    {
+      "id": 3,
+      "nome": "Felipe Rocha",
+      "telefone": "(31) 97654-3210",
+      "endereco": "Rua Ouro Preto, 45"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "clienteId": 1,
+      "descricao": "1x Pizza Grande Calabresa, 1x Guaraná 2L",
+      "valorTotal": 78.5,
+      "status": "em_preparo",
+      "pago": true,
+      "criadoEm": "2026-10-30T10:15:00Z"
+    },
+    {
+      "id": 2,
+      "clienteId": 2,
+      "descricao": "2x Hambúrguer Artesanal, 1x Porção de Fritas",
+      "valorTotal": 65.0,
+      "status": "pendente",
+      "pago": false,
+      "criadoEm": "2026-10-30T10:40:00Z"
+    },
+    {
+      "id": 3,
+      "clienteId": 3,
+      "descricao": "1x Combo Sushi Executivo (24 peças)",
+      "valorTotal": 92.0,
+      "status": "a_caminho",
+      "pago": true,
+      "criadoEm": "2026-10-30T11:00:00Z"
+    },
+    {
+      "id": 4,
+      "clienteId": 1,
+      "descricao": "1x Torta Holandesa Fatia",
+      "valorTotal": 18.0,
+      "status": "entregue",
+      "pago": true,
+      "criadoEm": "2026-10-30T09:30:00Z"
+    }
+  ]
+}

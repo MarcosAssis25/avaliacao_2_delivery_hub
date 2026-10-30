@@ -1,0 +1,12 @@
+{
+  "name": "mock-api-server",
+  "version": "1.0.0",
+  "description": "Mock REST API com persistência local usando json-server para a Avaliação 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000 --host 0.0.0.0 --delay 250 -s ./public"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
